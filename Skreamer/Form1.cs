@@ -66,31 +66,31 @@ namespace Skreamer
         public void Unit()
         {
 
-            pictureBox1.Image = new Bitmap(@"11.jpg");
-            pictureBox2.Image = new Bitmap(@"11.jpg");
-            pictureBox3.Image = new Bitmap(@"11.jpg");
-            pictureBox4.Image = new Bitmap(@"11.jpg");
-            pictureBox5.Image = new Bitmap(@"11.jpg");
-            pictureBox6.Image = new Bitmap(@@"11.jpg");
-            pictureBox7.Image = new Bitmap(@"11.jpg");
-            pictureBox8.Image = new Bitmap(@"11.jpg");
-            pictureBox9.Image = new Bitmap(@"11.jpg");
-            pictureBox10.Image = new Bitmap(@"11.jpg");
-            pictureBox11.Image = new Bitmap(@"11.jpg");
-            pictureBox12.Image = new Bitmap(@"11.jpg");
-            pictureBox13.Image = new Bitmap(@"11.jpg");
-            pictureBox14.Image = new Bitmap(@"11.jpg");
-            pictureBox15.Image = new Bitmap(@"11.jpg");
-            pictureBox16.Image = new Bitmap(@"11.jpg");
-            pictureBox17.Image = new Bitmap(@"11.jpg");
-            pictureBox18.Image = new Bitmap(@"11.jpg");
-            pictureBox19.Image = new Bitmap(@"11.jpg");
-            pictureBox20.Image = new Bitmap(@"11.jpg");
-            pictureBox21.Image = new Bitmap(@"11.jpg");
-            pictureBox22.Image = new Bitmap(@"11.jpg");
-            pictureBox23.Image = new Bitmap(@"11.jpg");
-            pictureBox24.Image = new Bitmap(@"11.jpg");
-            pictureBox25.Image = new Bitmap(@"11.jpg");
+            pictureBox1.Image = new Bitmap(Properties.Resources._11);
+            pictureBox2.Image = new Bitmap(Properties.Resources._11);
+            pictureBox3.Image = new Bitmap(Properties.Resources._11);
+            pictureBox4.Image = new Bitmap(Properties.Resources._11);
+            pictureBox5.Image = new Bitmap(Properties.Resources._11);
+            pictureBox6.Image = new Bitmap(Properties.Resources._11);
+            pictureBox7.Image = new Bitmap(Properties.Resources._11);
+            pictureBox8.Image = new Bitmap(Properties.Resources._11);
+            pictureBox9.Image = new Bitmap(Properties.Resources._11);
+            pictureBox10.Image = new Bitmap(Properties.Resources._11);
+            pictureBox11.Image = new Bitmap(Properties.Resources._11);
+            pictureBox12.Image = new Bitmap(Properties.Resources._11);
+            pictureBox13.Image = new Bitmap(Properties.Resources._11);
+            pictureBox14.Image = new Bitmap(Properties.Resources._11);
+            pictureBox15.Image = new Bitmap(Properties.Resources._11);
+            pictureBox16.Image = new Bitmap(Properties.Resources._11);
+            pictureBox17.Image = new Bitmap(Properties.Resources._11);
+            pictureBox18.Image = new Bitmap(Properties.Resources._11);
+            pictureBox19.Image = new Bitmap(Properties.Resources._11);
+            pictureBox20.Image = new Bitmap(Properties.Resources._11);
+            pictureBox21.Image = new Bitmap(Properties.Resources._11);
+            pictureBox22.Image = new Bitmap(Properties.Resources._11);
+            pictureBox23.Image = new Bitmap(Properties.Resources._11);
+            pictureBox24.Image = new Bitmap(Properties.Resources._11);
+            pictureBox25.Image = new Bitmap(Properties.Resources._11);
           
 
 
@@ -117,7 +117,7 @@ namespace Skreamer
            
             if (num == 2)
             {
-                pictureBox2.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox2.Image = (Image)new Bitmap(Properties.Resources._2);
 
                 hope = true;
                 win++;
@@ -126,7 +126,7 @@ namespace Skreamer
 
               
             }
-            else { pictureBox2.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox2.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -136,14 +136,14 @@ namespace Skreamer
             if (num == 3)
             {
                 
-                pictureBox3.Image = new Bitmap(@"2.jpg");
+                pictureBox3.Image = new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox3.Image =  new Bitmap (@"3.jpg"); }
+            else { pictureBox3.Image =  new Bitmap (Properties.Resources._3); }
 
         }
 
@@ -152,14 +152,14 @@ namespace Skreamer
            
             if (num == 4)
             {
-                pictureBox4.Image = new Bitmap(@"2.jpg");
+                pictureBox4.Image = new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox4.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox4.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
@@ -167,14 +167,14 @@ namespace Skreamer
            
             if (num == 9)
             {
-                pictureBox9.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox9.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                 
             }
-            else { pictureBox9.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox9.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -183,14 +183,14 @@ namespace Skreamer
             
             if (num == 10)
             {
-                pictureBox10.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox10.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                 
             }
-            else { pictureBox10.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox10.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
@@ -198,14 +198,14 @@ namespace Skreamer
             
             if (num == 11)
             {
-                pictureBox11.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox11.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox11.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox11.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -214,14 +214,14 @@ namespace Skreamer
            
             if (num == 12)
             {
-                pictureBox12.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox12.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox12.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox12.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -230,14 +230,14 @@ namespace Skreamer
            
             if (num == 13)
             {
-                pictureBox13.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox13.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                 
             }
-            else { pictureBox13.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox13.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
 
         private void pictureBox14_Click(object sender, EventArgs e)
@@ -245,14 +245,14 @@ namespace Skreamer
            
             if (num == 14)
             {
-                pictureBox14.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox14.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox14.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox14.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -261,14 +261,14 @@ namespace Skreamer
            
             if (num == 15)
             {
-                pictureBox15.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox15.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox15.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox15.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -277,14 +277,14 @@ namespace Skreamer
            
             if (num == 16)
             {
-                pictureBox16.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox16.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                 
             }
-            else { pictureBox16.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox16.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
 
         private void pictureBox17_Click(object sender, EventArgs e)
@@ -292,14 +292,14 @@ namespace Skreamer
             
             if (num == 17)
             {
-                pictureBox17.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox17.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                 
             }
-            else { pictureBox17.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox17.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -308,14 +308,14 @@ namespace Skreamer
            
             if (num == 18)
             {
-                pictureBox18.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox18.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
 
             }
-            else { pictureBox18.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox18.Image = (Image)new Bitmap(Properties.Resources._3); }
 
 
         }
@@ -325,14 +325,14 @@ namespace Skreamer
            
             if (num == 19)
             {
-                pictureBox19.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox19.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox19.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox19.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -341,14 +341,14 @@ namespace Skreamer
            
             if (num == 20)
             {
-                pictureBox20.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox20.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox20.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox20.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -358,14 +358,14 @@ namespace Skreamer
             if (num == 21)
             {
 
-                pictureBox21.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox21.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                 
             }
-            else { pictureBox21.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox21.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
 
         private void pictureBox22_Click(object sender, EventArgs e)
@@ -373,14 +373,14 @@ namespace Skreamer
            
             if (num == 22)
             {
-                pictureBox22.Image = new Bitmap(@"2.jpg");
+                pictureBox22.Image = new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                 
             }
-            else { pictureBox22.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox22.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
 
         private void pictureBox23_Click(object sender, EventArgs e)
@@ -388,14 +388,14 @@ namespace Skreamer
           
             if (num == 23)
             {
-                pictureBox23.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox23.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox23.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox23.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -404,14 +404,14 @@ namespace Skreamer
             
             if (num == 24)
             {
-                pictureBox24.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox24.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox24.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox24.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -421,14 +421,14 @@ namespace Skreamer
             if (num == 25)
             {
 
-                pictureBox25.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox25.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox25.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox25.Image = (Image)new Bitmap(Properties.Resources._3); }
 
         }
 
@@ -437,14 +437,14 @@ namespace Skreamer
            
             if (num == 1)
             {
-                pictureBox1.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox1.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                 
             }
-            else { pictureBox1.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox1.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -452,14 +452,14 @@ namespace Skreamer
             
             if (num == 5)
             {
-                pictureBox5.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox5.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                 
             }
-            else { pictureBox5.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox5.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
@@ -467,14 +467,14 @@ namespace Skreamer
            
             if (num == 6)
             {
-                pictureBox6.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox6.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                 
             }
-            else { pictureBox6.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox6.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
 
        
@@ -486,14 +486,14 @@ namespace Skreamer
 
             if (num == 7)
             {
-                pictureBox7.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox7.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
                 Unit();
                
             }
-            else { pictureBox7.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox7.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
@@ -501,7 +501,7 @@ namespace Skreamer
             
             if (num == 8)
             {
-                pictureBox8.Image = (Image)new Bitmap(@"2.jpg");
+                pictureBox8.Image = (Image)new Bitmap(Properties.Resources._2);
                 hope = true;
                 win++;
                 Thread.Sleep(2000);
@@ -509,7 +509,7 @@ namespace Skreamer
                
             }
 
-            else { pictureBox8.Image = (Image)new Bitmap(@"3.jpg"); }
+            else { pictureBox8.Image = (Image)new Bitmap(Properties.Resources._3); }
         }
         private void button1_Click(object sender, EventArgs e)
         {
